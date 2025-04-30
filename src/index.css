@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply font-['Red_Hat_Text'];
+    @apply bg-rose50;
+  }
+}
+
+@theme {
+  --color-red: #c7390e;
+  --color-green: #1ea374;
+  --color-rose50: #fcf9f7;
+  --color-rose100: #f4edea;
+  --color-rose300: #c9aea5;
+  --color-rose400: #ad8984;
+  --color-rose500: #866259;
+  --color-rose900: #250e08;
+}
